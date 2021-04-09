@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'oe2f%&traq3_@ub0b_!!fqo_r3z8dp=i=xm#py0m8e-+c#@3=1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','etcweb.azurewebsites.net']
+
 
 
 # Application definition
